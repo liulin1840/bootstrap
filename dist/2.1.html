@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>Bootstrap</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+ <script src="js/jquery-2.0.3.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ </head>
+ <body>
+<div class="container">              
+<!-- 
+要在这个容器下面才可以container:用.container 包裹页面上的内容即可实现居中对齐。
+在不同的媒体查询或值范围内都为 container 设置了 max-width，用以匹配栅格系统。
+ -->
+    <h1>
+        从前有座山
+    </h1>
+    <div class="row">                 
+        <div class="col-xs-4">       <!-- 把12分成3分,每份占4  -->
+            <h2 class="page-header"> <!-- 这个样式可以借用一下, -->
+                区域一
+            </h2>
+            <p>
+                小猫
+            </p>
+        </div>
+        <div class="col-xs-4">
+            <h2 class="page-header">
+                区域二
+            </h2>
+            <p>
+                小狗
+            </p>
+        </div>
+        <div class="col-xs-4">
+            <h2 class="page-header">
+                区域三
+            </h2>
+            <p>
+                小鸡
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 其实这个布局很像 HTMl 中的 Table 布局 TR 行和 TD 列吧。 -->
+ </body>
+ </html>
